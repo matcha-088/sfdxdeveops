@@ -1,4 +1,4 @@
-trigger calcTrigger on SOBJECT (before insert) {
+trigger calcTrigger on Account (before insert) {
     if(Trigger.isBefore){
         if(Trigger.isInsert){
             
