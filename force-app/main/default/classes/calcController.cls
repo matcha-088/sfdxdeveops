@@ -1,7 +1,9 @@
 /*********************************************************************
  * version          Date        Name        Descriotion
  * ===================================================================
- *   v1.0         29-05-2025    Sai Sagar   Add Method Created
+ *   v1.1         29-05-2025    Sai Sagar   Add Method Created
+ *   v1.2         29-05-2025    Pavan       Sub Method Created
+ *   v1.3         29-05-2025    Teja        Mul Method Created
  *********************************************************************/
 /********************************
  * Name : Calculator
@@ -23,6 +25,10 @@ public with sharing class calcController {
     public Integer sub(Integer a,Integer b){
         // From future/sub
         return a-b;
+    }
+
+    public Integer mul(Integer a,Integer b){
+        return a*b;
     }
     
 }
