@@ -19,5 +19,10 @@ public with sharing class calcController {
         // From future/Add
         return a+b;
     }
+
+    public Integer sub(Integer a,Integer b){
+        // From future/sub
+        return a-b;
+    }
     
 }
