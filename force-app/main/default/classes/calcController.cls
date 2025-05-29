@@ -1,11 +1,11 @@
-/*********************************************************************
- * version          Date        Name        Descriotion
- * ===================================================================
- *   v1.0         29-05-2025    Sagar     Created Class and cal Method
- *********************************************************************/
+/********************************
+ * Name : Calculator
+ * Author : Pavan Kalyan Matcha
+ * Date : 29-05-2025
+ ********************************/
 
 public with sharing class calcController {
-    
+
     public calcController() {
 
     }
